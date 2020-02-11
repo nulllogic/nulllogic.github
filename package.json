@@ -1,0 +1,46 @@
+{
+  "name": "source.nulllogic.github.io",
+  "version": "1.0.0",
+  "author": "nulllogic.net <support@nulllogic.net>",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.19.12",
+    "gatsby-image": "^2.2.40",
+    "gatsby-plugin-algolia": "^0.3.0",
+    "gatsby-plugin-catch-links": "^2.0.9",
+    "gatsby-plugin-feed": "^2.0.11",
+    "gatsby-plugin-layout": "^1.0.11",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-sass": "^2.1.28",
+    "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-plugin-sitemap": "^2.2.27",
+    "gatsby-remark-copy-linked-files": "^2.1.37",
+    "gatsby-remark-external-links": "^0.0.4",
+    "gatsby-remark-images": "^3.1.44",
+    "gatsby-remark-prismjs": "^3.3.31",
+    "gatsby-remark-responsive-iframe": "^2.2.32",
+    "gatsby-remark-smartypants": "^2.0.7",
+    "gatsby-source-filesystem": "^2.1.48",
+    "gatsby-transformer-remark": "^2.6.50",
+    "gatsby-transformer-sharp": "^2.3.14",
+    "node-sass": "^4.13.1",
+    "prismjs": "^1.15.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-visibility-sensor": "^5.1.1",
+    "url-loader": "^1.1.2",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "dotenv": "^6.2.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "start": "gatsby serve --port ${PORT}",
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "heroku-postbuild": "gatsby build"
+  },
+  "devDependencies": {}
+}
